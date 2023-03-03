@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  font-family: Montserrat;
+}
+
+/* header & navbar*/
+.content__header {
+  background: url(../assets/cover-azure.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 60vh;
+}
+.content__header_bung {
+  background: url(../assets/cover-conte.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 60vh;
+}
+.content__header_nosotros {
+  background: url(../assets/cover-quienes.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 60vh;
+}
+.content__header_contacto {
+  background: url(../assets/cover-contacto.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 60vh;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+.header {
+  min-height: 80px;
+  background-color: #3670aee5;
+}
+
+.log__bacalar {
+  max-width: 200px;
+}
+.nav__content {
+  z-index: 1;
+  margin-top: -20px;
+  background-color: #083356d7;
+}
+
+.azure_logo {
+  margin-top: -100px;
+  background-color: #00859d;
+}
+.logo_Bungalows {
+  margin-top: -100px;
+  background-color: #f9b200;
+}
+.azure_logo img {
+  width: 200px !important;
+}
+.content_all_widgets {
+  margin-top: -10px;
+}
+
+.azure_logo_nosotros,
+.azure_logo_contacto {
+  margin-top: -100px;
+  background-color: #3670ae;
+}
+/* end header and navbar */
+/* publish dep */
+.content_publish h1 {
+  color: #ff5e00;
+  letter-spacing: 0.2rem;
+  font-size: 2.8em;
+  -webkit-text-stroke: 3px;
+}
+h3.title {
+  color: #3670ae;
+  -webkit-text-stroke: 0.1rem;
+  letter-spacing: 0.05em;
+  font-size: 1.6em;
+}
+h4.title {
+  color: #3670ae;
+  -webkit-text-stroke: 0.1rem;
+  letter-spacing: 0.07em;
+}
+.content_publish p {
+  font-size: 1.2em;
+  color: #494949;
+  text-align: justify;
+}
+#carousel-indicators_home button {
+  background-color: #1f517f !important;
+  width: 8px !important;
+  height: 8px !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-radius: 10px;
+}
+#carousel-indicators_bungalows button {
+  background-color: #f9b200 !important;
+  width: 8px !important;
+  height: 8px !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-radius: 10px;
+}
+#carousel-indicators_bungalows .active {
+  background-color: #ffffff !important;
+}
+#carousel-indicators_home .active {
+  background-color: #ffffff !important;
+}
+/* end publish dep */
+.content_all_widgets {
+  width: 500px;
+}
+.content_widget_contact {
+  width: 50%;
+}
+.content_widget_contact span {
+  font-size: 0.8em;
+  font-weight: 900;
+}
+.content_widget {
+  width: 50%;
+}
+.lang h7 {
+  font-size: 0.8em;
+}
+/* stock columns */
+.column_stock0 {
+  border: 0.1rem;
+  border-style: dashed solid dashed none;
+  border-color: #b4b4b4;
+}
+.column_stock1 {
+  border: 1px;
+  border-style: dashed none dashed none;
+  border-color: #b4b4b4;
+  color: #3670ae;
+  letter-spacing: 0.1rem;
+  -webkit-text-stroke: 1.2px;
+}
+.content_list-stock {
+  min-height: 200px;
+}
+.content_list-stock_bungalows {
+  min-height: 100px;
+}
+.cont__flag__depto {
+  background-color: #00859d;
+  height: 130px;
+}
+.cont__flag__deptoContainer {
+  background-color: #f9b200;
+  height: 130px;
+  color: #5a5a5a;
+  -webkit-text-stroke: 1px;
+}
+.cont__flag__depto div,
+.cont__flag__deptoContainer div {
+  letter-spacing: 0.1rem;
+  width: 100%;
+  height: 100%;
+}
+.content__description {
+  min-height: 200px;
+  font-size: 1.2em;
+  color: #494949;
+  text-align: justify;
+}
+
+/* end stock columns */
+
+/* content_form */
+.content_form_bungalows {
+  background-color: #f9b200;
+  width: 100%;
+  height: 450px;
+  margin-top: 100px;
+}
+.content_form {
+  background-color: #00859d;
+  width: 100%;
+  height: 450px;
+  margin-top: 100px;
+}
+.cont__form {
+  position: absolute;
+  background: rgb(241, 241, 241);
+  padding: 100px 165px 100px 165px;
+  top: -30px;
+  left: 51%;
+  width: 47%;
+  height: 500px;
+}
+.cont__form_contact {
+  background: #3670ae;
+  padding: 100px 165px 100px 165px;
+  top: -30px;
+  left: 51%;
+  width: 100%;
+  height: 500px;
+}
+.cont__form .btn {
+  background-color: #00859d;
+  border-radius: 0px;
+}
+.cont__form_contact .btn {
+  border-radius: 0px;
+  background: #76d5fa;
+}
+.cont__form input,
+.cont__form_contact input {
+  border: none;
+  background-color: #e4e4e4;
+  margin-top: 15px;
+  height: 40px;
+  font-size: 0.8em;
+  font-weight: bolder;
+}
+.cont__form input::placeholder {
+  color: rgb(112, 112, 112);
+}
+.content_log_form img {
+  max-width: 200px;
+}
+.content_log_form {
+  width: 52%;
+  top: 120px;
+  left: 0px;
+}
+.text_logo {
+  letter-spacing: 0.1em;
+  font-size: 1.5em;
+}
+.message {
+  margin-top: 15px;
+  background-color: #e4e4e4;
+  font-size: 0.8em;
+  padding-right: 2px;
+}
+
+.error {
+  width: 100%;
+  margin: 0px !important;
+  color: #e62222;
+}
+.cont__form_contact .error {
+  width: 100%;
+  margin: 0px !important;
+  color: #ffffff;
+}
+/* end content Form */
+/* Gallery */
+.front-img,
+.front-img-bungalows {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.front-img {
+  background-color: #00869dd7;
+}
+.front-img-bungalows {
+  background-color: #f9b200b7;
+}
+
+.front-img-bungalows:hover,
+.front-img:hover {
+  background-color: transparent;
+  color: transparent;
+}
+
+.g-1,
+.gy-1,
+.gx-1 {
+  --bs-gutter-y: 0.06rem;
+  --bs-gutter-x: 0.07rem;
+}
+/* end Gallery */
+
+/* Footer abd credits */
+.content__footer {
+  background: url(../assets/footer-bg.png) no-repeat center;
+  background-size: cover;
+  background-color: #3670ae;
+  min-height: 30vmax;
+}
+.content__credits {
+  background-color: #1f517f;
+}
+.content__credits h1 {
+  font-size: 0.6em;
+}
+.footer_icons i {
+  color: #5da2ec;
+}
+.fa-angle-right {
+  color: #5da2ec;
+}
+/* end Footer and credits */
+
+/* Page Error */
+.content-back {
+  background: url(../assets/conte-bg.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.content_message {
+  width: 100vh;
+  max-width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(10px);
+}
+.content_message button {
+  background: transparent;
+  border: white 2px solid;
+}
+/* End  Page error*/
+
+.icons_contact {
+  color: #3670ae;
+}
+
+/*responsive Page*/
+@media screen and (max-width: 576px) {
+  .content_log_form {
+    position: relative;
+    top: 10px;
+    left: auto;
+    width: 100% !important;
+  }
+  .content_form {
+    position: relative;
+    max-width: 100% !important;
+    height: 710px;
+  }
+  .cont__form {
+    position: relative;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    padding: 15px !important;
+  }
+  .col_contact {
+    border-right: none !important;
+    border-bottom: 1px solid white !important;
+  }
+  .cont__flag__depto div {
+    width: 100%;
+    height: 80%;
+    display: block !important;
+    text-align: center;
+  }
+  .cont__flag__depto {
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .grecaptcha-badge {
+    display: none;
+  }
+  .header_list_stock {
+    padding: 0px;
+  }
+  .cont__form_contact {
+    padding: 10px 10px 10px 10px !important;
+  }
+  .text-wrap p {
+    font-size: 1em !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .azure_logo {
+    margin: 0;
+    padding: 20px;
+  }
+  .content_log_form {
+    left: auto;
+    width: 50%;
+  }
+  .cont__form {
+    padding: 40px 10px 0px 10px !important;
+  }
+  .content_all_widgets {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .content_log {
+    width: 80%;
+    margin-left: 0px !important;
+  }
+  .temp_and_hour,
+  .lang {
+    justify-content: flex-end !important;
+    text-align: end;
+  }
+  .description_depto {
+    margin-top: 20px;
+  }
+  .col_contact {
+    border-right: none !important;
+  }
+  .content_contact {
+    padding: 0px !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .cont__form {
+    padding: 40px 10px 0px 10px !important;
+  }
+  .nav__content {
+    z-index: 1;
+    margin-top: 0px;
+    background-color: #083356d7;
+  }
+  #navbarNav ul {
+    display: block;
+  }
+  .g-1,
+  .gy-1,
+  .gx-1 {
+    --bs-gutter-y: 0.07rem;
+    --bs-gutter-x: 0.07rem;
+  }
+  .pe-4 {
+    padding-right: 0.8em !important;
+  }
+}
+/*end responsive Page*/
